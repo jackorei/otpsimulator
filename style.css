@@ -5,7 +5,6 @@
     font-style: normal;
   }
 
-
 * {
     font-family: 'coinbase', sans-serif;
     color: white;
@@ -33,7 +32,7 @@ body {
 }
 
 #signup {
-    font-size: 18px;
+    font-size: 15px;
     background-color: #4b4b4b00;
     border: 0px;
     border-radius: 50px;
@@ -158,3 +157,4 @@ a {
 .errorcase {
     border: 2px solid rgb(240,97,109);
 }
+
