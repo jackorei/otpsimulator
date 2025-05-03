@@ -14,11 +14,20 @@ continuebutton.addEventListener('click', () => {
     console.log(`* User attempt: ${inputCode}`)
     if (inputCode !== otpcode) {
         codeerror.style.display = 'inline-block'
+        allInputs.forEach(allInput => {
+            allInput.style.border = '2px solid rgb(240,97,109)'
+            allInput.value = ''
+        });
+
         console.log(`* User attempt failed.`)
     }
     else {
         codeerror.style.display = ''
+        allInputs.forEach(allInput => {
+            allInput.style.border = ''
+        });
         console.log(`* User attempt successful!`)
+        window.location.href = "panel.html"
     }
 })
 

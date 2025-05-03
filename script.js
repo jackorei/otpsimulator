@@ -11,7 +11,7 @@ continuebutton.addEventListener('click', () => {
     correctEmail = useremail.toLowerCase()
     if (enteredEmail !== correctEmail || passwordinp.value !== userpassword) {
         loginerror.style.display = 'inline-block'
-        passwordinp.style.border = '1.5px solid rgb(240,97,109)'
+        passwordinp.style.border = '2px solid rgb(240,97,109)'
     }
     else {
         loginerror.style.display = 'none'

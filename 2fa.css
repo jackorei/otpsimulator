@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     gap: 7px;
-    margin-bottom: 10px;
 }
 
 .codeinput {
@@ -31,8 +30,11 @@
 #codeerror {
     color: rgb(240,97,109);
     font-size: 14px;
-    margin-top: 10px;
     padding-left: 40px;
+    margin-top: 10px;
     display: none;
 }
 
+#continue {
+    margin-top: 30px;
+}
