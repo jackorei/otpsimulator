@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'coinbase';
+    src: url('fonts/Coinbase_Sans-Medium-web-1.32.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+* {
+    font-family: 'coinbase', sans-serif;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(12, 12, 14);
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+#logo {
+    width: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 80px;
+}
+
+#signup {
+    font-size: 18px;
+    background-color: #4b4b4b00;
+    border: 0px;
+    border-radius: 50px;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#signup:hover {
+    background-color: #4b4b4b19;
+}
+
+.middlebody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    height: 430px;
+    width: 375px;
+    border: 1px solid rgba(255, 255, 255, 0.092);
+    border-radius: 20px;
+}
+
+#signintitle {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#emailww {
+    font-size: 18px;
+}
+#passww {
+    font-size: 18px;
+}
+
+.loginin {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#continue {
+    color: rgb(12, 12, 14);
+    font-size: 18px;
+    background-color: rgb(87,139,250);
+    width: 310px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#continue:hover {
+    background-color: rgb(101, 148, 250);
+}
+
+#emailinp {
+    border: 1px solid rgba(255, 255, 255, 0.352);
+    background-color: rgba(240, 248, 255, 0);
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: start;
+    transition: 0.2s;
+    padding-left: 10px;
+}
+#passwordinp {
+    border: 1px solid rgba(255, 255, 255, 0.352);
+    background-color: rgba(240, 248, 255, 0);
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: start;
+    transition: 0.1s;
+    padding-left: 10px;
+}
+
+#emailinp:focus {
+    outline: none;
+    border: 2px solid rgb(87,139,250);
+}
+#passwordinp:focus {
+    outline: none;
+    border: 2px solid rgb(87,139,250);
+}
+
+.line5 {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(185, 185, 185);
+}
+#help {
+    color: rgb(185, 185, 185);
+    font-size: 14px;
+
+}
+
+.rowdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginerror {
+    color: rgb(240,97,109);
+    font-size: 14px;
+    padding-left: 5px;
+    display: none;
+}
+
+.errorcase {
+    border: 2px solid rgb(240,97,109);
+}
