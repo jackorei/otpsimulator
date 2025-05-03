@@ -102,6 +102,7 @@ body {
     text-align: start;
     transition: 0.2s;
     padding-left: 10px;
+    font-size: 17px;
 }
 #passwordinp {
     border: 1px solid rgba(255, 255, 255, 0.352);
@@ -112,7 +113,9 @@ body {
     text-align: start;
     transition: 0.1s;
     padding-left: 10px;
+    font-size: 17px;
 }
+
 
 #emailinp:focus {
     outline: none;
