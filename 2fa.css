@@ -38,3 +38,9 @@
 #continue {
     margin-top: 30px;
 }
+
+#resend {
+    color: rgb(185, 185, 185);
+    font-size: 14px;
+    display: none;
+}
