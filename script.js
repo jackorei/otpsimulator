@@ -7,8 +7,8 @@ let useremail = 'user@gmail.com'
 let userpassword = 'user1!'
 
 continuebutton.addEventListener('click', () => {
-    enteredEmail = emailinp.value.toLowerCase()
-    correctEmail = useremail.toLowerCase()
+    const enteredEmail = emailinp.value.toLowerCase()
+    const correctEmail = useremail.toLowerCase()
     if (enteredEmail !== correctEmail || passwordinp.value !== userpassword) {
         loginerror.style.display = 'inline-block'
         passwordinp.style.border = '2px solid rgb(240,97,109)'
